@@ -7,3 +7,7 @@ Average = Sum / Numberofnumbers
 print(Biggestnumber)
 print(Smallestnumber)
 print(Average)
+index1=numList.index(Biggestnumber)
+index2=numList.index(Smallestnumber)
+print(index1)
+print(index2)
