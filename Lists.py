@@ -4,13 +4,11 @@ Smallestnumber = min(numList)
 Sum = sum(numList)
 Numberofnumbers = len(numList)
 Average = Sum / Numberofnumbers
-print(Biggestnumber)
-print(Smallestnumber)
-print(Average)
 index1=numList.index(Biggestnumber)
 index2=numList.index(Smallestnumber)
-print(index1)
-print(index2)
+print(Biggestnumber,"The index is", index1)
+print(Smallestnumber,"The index is", index2)
+print(Average)
 
 stringsList = ["abc", "123", "2332", "aBBA", "heelloo", "1212", "DcEfD"]
 count = 0
