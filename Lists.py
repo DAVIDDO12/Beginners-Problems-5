@@ -15,7 +15,7 @@ count = 0
 for stringitem in stringsList:
     if len(stringitem) > 0 and stringitem[0] == stringitem[-1]:
         count += 1
-    print(count)
+print(count)
 
 iLikePesto = []
 otherFoods = []
